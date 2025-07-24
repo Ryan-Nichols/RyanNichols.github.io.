@@ -1,10 +1,76 @@
 <!DOCTYPE html>
-<html>
 <html lang="en">
-  <head>
-  <title>Ryan Nichols Portfolio Website</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 2em;
+      text-align: center;
+    }
+    section {
+      padding: 2em;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1em;
+    }
+    .project {
+      background: white;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      background: #333;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-  <h1>Ryan Nichols Portfolio</h1>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Developer | Designer | Creative Thinker</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Write a short bio here describing who you are, what you do, and what makes you awesome.</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Project Title</h3>
+        <p>Brief description of what the project does and what tools you used.</p>
+      </div>
+      <!-- Add more project blocks as needed -->
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Feel free to reach out to me at <a href="mailto:youremail@example.com">youremail@example.com</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
