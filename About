@@ -75,10 +75,16 @@ body {
       <li><a href="Contact">Contact</a></li>
     </ul>
   </nav
-<h2>Executive Summary</h3>
+
+<section id="about">
+  <h2>About Ryan Nichols</h2>
+  <p><strong>Email:</strong> <a href="mailto:Rnichols6912@gmail.com">Rnichols6912@gmail.com</a><br>
+     <strong>Phone:</strong> (815) 501-9312</p>
+
+  <h3>Executive Summary</h3>
   <p>Organized and detailed problem solver with strong work ethics and effective communication skills...</p>
 
-  <h2>Technical Skills</h3>
+  <h3>Technical Skills</h3>
   <ul>
     <li><strong>Computer Proficiency:</strong> Excel, PowerPoint, Word, Pivot Tables, Windows PC, Apple PC</li>
     <li><strong>Software:</strong> 3Ds Max, Mud Box, Maya, Blender, InDesign, Illustrator, Photoshop, Premiere Pro, Media Encoder, Muse, CorelDRAW, After Effects, Dreamweaver, DaVinci Resolve, Audition, Adobe Creative Suite</li>
@@ -100,6 +106,11 @@ body {
     <li><strong>2008–2014 Brown Printing – Woodstock, IL:</strong> Materials handling, bindery assistance</li>
     <li><strong>2002–2008 Hess Print Solutions – Woodstock, IL:</strong> Operator, trainer, team leadership</li>
   </ul>
+
+  <h3>Education</h3>
+  <p><strong>Rasmussen College – Rockford, IL:</strong> Associate of Applied Science in Digital Design</p>
+</section>
+
 
   <h2>Education</h3>
   <p><strong>Rasmussen College – Rockford, IL:</strong> Associate of Applied Science in Digital Design</p>
