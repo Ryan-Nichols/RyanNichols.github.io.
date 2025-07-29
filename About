@@ -2,131 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ryan Nichols Portfolio</title>
-  <style>
-    body {
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  text-align: center;
-  background-color: #f9f9f9;
-}
-    }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      padding: 0;
-      background-color: #444;
-      margin: 0;
-    }
-    nav li {
-      margin: 0 15px;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .hero {
-      padding: 60px;
-      text-align: center;
-      background-color: #e2e2e2;
-    .hero h1 {
-      font-size: 48px;
-      padding: 60px;
-      margin-bottom: 10px;
-    }
-    .hero p {
-      font-size: 30px;
-      color: #555;
-      padding: 60px;
-      margin: 0 15px;
-    }
-#about {
-  padding: 20px 50px;
-  background-color: #f9f9f9;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-}
-#about h2, #about h3 {
-  margin-top: 30px;
-  color: #333;
-}
-#about ul {
-  list-style-type: disc;
-  padding-left: 20px;
-    
-footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+  <title>About - Ryan Nichols</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Optional external CSS -->
 </head>
 <body>
-  <header>
-    <h1>Welcome to Ryan Nichols Portfolio</h1>
-  </header>
+
+  <!-- Navigation Menu -->
   <nav>
     <ul>
-      <li><a href="Home.html">Home</a></li>
-      <li><a href="About.html">About</a></li>
-      <li><a href="Portfolio.html">Portfolio</a></li>
-      <li><a href="Contact">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
-  </nav
+  </nav>
 
-<section id="about">
-  <h2>About Ryan Nichols</h2>
-  <p><strong>Email:</strong> <a href="mailto:Rnichols6912@gmail.com">Rnichols6912@gmail.com</a><br>
-     <strong>Phone:</strong> (815) 501-9312</p>
+  <!-- Main About Section -->
+  <section id="about">
+    <h2>About Ryan Nichols</h2>
+    <p>Email: <a href="mailto:Rnichols6912@gmail.com">Rnichols6912@gmail.com</a></p>
+    <p>Phone: (815) 501-9312</p>
 
-  <h3>Executive Summary</h3>
-  <p>Organized and detailed problem solver with strong work ethics and effective communication skills...</p>
+    <h3>Executive Summary</h3>
+    <p>Organized and detailed problem solver with strong work ethics and effective communication skills...</p>
 
-  <h3>Technical Skills</h3>
-  <ul>
-    <li><strong>Computer Proficiency:</strong> Excel, PowerPoint, Word, Pivot Tables, Windows PC, Apple PC</li>
-    <li><strong>Software:</strong> 3Ds Max, Mud Box, Maya, Blender, InDesign, Illustrator, Photoshop, Premiere Pro, Media Encoder, Muse, CorelDRAW, After Effects, Dreamweaver, DaVinci Resolve, Audition, Adobe Creative Suite</li>
-  </ul>
+    <h3>Technical Skills</h3>
+    <ul>
+      <li>Excel, PowerPoint, Word, Pivot Tables</li>
+      <li>3Ds Max, Maya, Blender, Photoshop, Illustrator, Premiere Pro, and more</li>
+    </ul>
 
-  <h3>Awards and Memberships</h3>
-  <ul>
-    <li>‘Regulatory Employee of the Month’ – Chemtool Inc.</li>
-    <li>Leader and Member of numerous team training seminars</li>
-  </ul>
+    <h3>Professional Experience</h3>
+    <ul>
+      <li>Graphic Designer – Momentum Stack (2024–2025)</li>
+      <li>Designer – West Valley Graphics (2022–2024)</li>
+      <li>Technical Writer – Mitsubishi LogisNext (2020–2022)</li>
+      <!-- Add other roles as needed -->
+    </ul>
 
-  <h3>Professional Experience</h3>
-  <ul>
-    <li><strong>2024–2025 Momentum Stack – Chadwick, IL:</strong> Graphic Designer – industrial signs, SOPs</li>
-    <li><strong>2022–2024 West Valley Graphics – St Charles, IL:</strong> Graphic Design, social media, advanced printing discovery</li>
-    <li><strong>2020–2022 Mitsubishi LogisNext – Marengo, IL:</strong> Technical manual authoring, editing, admin support</li>
-    <li><strong>2017–2019 Mitsubishi LogisNext – Marengo, IL:</strong> Warranty analysis, report authoring, improvement leadership</li>
-    <li><strong>2017 Chemtool Inc. – Rockton, IL:</strong> Regulatory affairs, HTS library creation</li>
-    <li><strong>2008–2014 Brown Printing – Woodstock, IL:</strong> Materials handling, bindery assistance</li>
-    <li><strong>2002–2008 Hess Print Solutions – Woodstock, IL:</strong> Operator, trainer, team leadership</li>
-  </ul>
+    <h3>Education</h3>
+    <p>Rasmussen College – Associate of Applied Science in Digital Design</p>
+  </section>
 
-  <h3>Education</h3>
-  <p><strong>Rasmussen College – Rockford, IL:</strong> Associate of Applied Science in Digital Design</p>
-</section>
+</body>
+</html>
 
 
-  <h2>Education</h3>
   <p><strong>Rasmussen College – Rockford, IL:</strong> Associate of Applied Science in Digital Design</p>
 </section>
 <footer>
